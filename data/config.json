@@ -1,0 +1,12 @@
+{
+  "site": {
+    "name": "Mi Proyecto",
+    "version": "1.0.0",
+    "locale": "es-CO",
+    "timezone": "America/Bogota"
+  },
+  "theme": {
+    "primaryColor": "#6366f1",
+    "fontFamily": "Inter"
+  }
+}
