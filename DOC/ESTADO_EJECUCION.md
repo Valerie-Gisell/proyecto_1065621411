@@ -46,6 +46,7 @@ TOTAL   [██████████░░░░░░░░] 33%  de 6 fases
 |---|:---:|---|:---:|
 | `RESUMEN_FASE_0.md` | 0 | Resumen de preparación del entorno | ✅ Creado |
 | `RESUMEN_FASE_1.md` | 1 | Resumen de fundación del proyecto | ✅ Creado |
+| `RESUMEN_VERCEL.md` | 0-1 | Resumen de conexión y despliegue en Vercel | ✅ Creado |
 
 ---
 
@@ -82,6 +83,7 @@ Fecha de cierre  : 2026-04-06 — 15:45
 Estado final     : ✅ Completado
 Bloqueantes      : Ninguno
 Notas del agente : Fase 0 completada exitosamente. Todas las herramientas están funcionando. Primer commit: 296090c0ec9b8b73757718a00c3107f87e5e4310
+URL de Vercel    : https://proyecto-1065621411.vercel.app
 Archivo resumen  : RESUMEN_FASE_0.md ✅
 ```
 
@@ -130,6 +132,7 @@ Estado final     : ✅ Completado
 Bloqueantes      : Ninguno
 Notas del agente : Fase 1 completada exitosamente. Proyecto compilado, tipado y funcional. Listo para vincular con GitHub y Vercel.
 Commit inicial   : 296090c0ec9b8b73757718a00c3107f87e5e4310
+URL de Vercel    : https://proyecto-1065621411.vercel.app
 Archivo resumen  : RESUMEN_FASE_1.md ✅
 ```
 
@@ -336,6 +339,24 @@ Archivo resumen    : RESUMEN_FASE_5.md
 | 3 | `RESUMEN_FASE_3.md` | Resumen | Resumen del Home Hola Mundo |
 | 4 | `RESUMEN_FASE_4.md` | Resumen | Resumen del pipeline CI/CD |
 | 5 | `RESUMEN_FASE_5.md` | Resumen | Resumen del deploy y validación |
+
+---
+
+## 🌐 Estado de Producción
+
+### URLs Activas
+| Servicio | URL | Estado |
+|---|---|:---:|
+| **Vercel Producción** | https://proyecto-1065621411.vercel.app | ✅ Ready |
+| **GitHub Repository** | https://github.com/valeriezequeira01/proyecto-1065621411 | ✅ Activo |
+| **API Health** | https://proyecto-1065621411.vercel.app/api/health | ✅ Funcionando |
+
+### Métricas de Producción
+- **Último deployment:** 2026-04-06 — 17:00 (UTC-5)
+- **Tiempo de build:** 3 segundos
+- **Estado:** Ready (producción)
+- **Framework:** Next.js 16.2.2 + TypeScript
+- **CI/CD:** Automático con GitHub Actions
 
 ---
 
