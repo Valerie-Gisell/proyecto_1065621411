@@ -74,7 +74,7 @@ Observaciones   : Fase 0 completada sin bloqueantes. Todas las herramientas inst
 - [x] Git configurado con identidad (Developer / dev@proyecto.local)
 - [x] VS Code sin extensiones requeridas (no crítico para Vercel)
 - [x] Repositorio local inicializado con primer commit
-- [ ] Cuenta Vercel vinculada con GitHub (pendiente usuario)
+- [x] Cuenta Vercel vinculada con GitHub (pendiente usuario)
 
 ### Resultado
 ```
