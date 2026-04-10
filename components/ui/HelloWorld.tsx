@@ -74,6 +74,21 @@ export default function HelloWorld({ content }: Props) {
           {content.description}
         </motion.p>
 
+        {/* Información del usuario */}
+        {(content.name || content.document) && (
+          <motion.div
+            variants={itemVariants}
+            className="mt-12 p-6 rounded-lg border border-indigo-500/20 bg-indigo-500/5 backdrop-blur-sm"
+          >
+            {content.name && (
+              <p className="text-slate-300 font-medium text-lg mb-2">{content.name}</p>
+            )}
+            {content.document && (
+              <p className="text-slate-400 font-mono text-sm">Documento: {content.document}</p>
+            )}
+          </motion.div>
+        )}
+
         {/* Separador decorativo */}
         <motion.div
           variants={itemVariants}

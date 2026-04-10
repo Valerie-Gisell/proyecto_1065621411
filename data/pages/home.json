@@ -1,0 +1,21 @@
+{
+  "id": "home",
+  "title": "Inicio",
+  "section": "hero",
+  "status": "published",
+  "content": {
+    "headline": "Hola Mundo",
+    "subheadline": "Sistema Fullstack TypeScript",
+    "description": "Infraestructura validada con Next.js 14, TypeScript estricto y despliegue continuo en Vercel.",
+    "badge": "v1.0.0 · En línea",
+    "cta": {
+      "text": "Explorar",
+      "href": "/about"
+    }
+  },
+  "metadata": {
+    "createdAt": "2026-04-06T15:45:00Z",
+    "updatedAt": "2026-04-10T14:30:00Z",
+    "version": 1
+  }
+}

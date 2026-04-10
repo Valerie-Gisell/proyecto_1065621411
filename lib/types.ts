@@ -1,40 +1,25 @@
-export interface SiteTheme {
-  primaryColor: string;
-  fontFamily: string;
-}
+/**
+ * @file lib/types.ts
+ * @deprecated Use lib/types/index.ts instead
+ * @description Re-exports para compatibilidad hacia atrás.
+ */
 
-export interface SiteInfo {
-  name: string;
-  version: string;
-  locale: string;
-  timezone: string;
-}
-
-export interface SiteConfig {
-  site: SiteInfo;
-  theme: SiteTheme;
-}
-
-export interface HomeContent {
-  headline: string;
-  subheadline: string;
-  description: string;
-  badge: string;
-}
-
-export interface SiteContent {
-  home: HomeContent;
-}
-
-export interface ApiResponse<T = unknown> {
-  success: boolean;
-  data?: T;
-  error?: string;
-  timestamp: string;
-}
-
-export interface HealthStatus {
-  status: "ok" | "degraded" | "down";
-  version: string;
-  environment: string;
-}
+export type {
+  SiteTheme,
+  SiteInfo,
+  SiteConfig,
+  CallToAction,
+  HomeContentData,
+  HomeContent,
+  PageSection,
+  PageStatus,
+  PageMetadata,
+  HomePage,
+  SiteContent,
+  ApiResponse,
+  ApiErrorResponse,
+  SystemStatus,
+  HealthStatus,
+  DataResource,
+  DataReadOptions,
+} from "./types/index";

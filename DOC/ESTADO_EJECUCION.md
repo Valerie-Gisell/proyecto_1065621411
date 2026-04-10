@@ -15,7 +15,7 @@
 |:---:|---|:---:|---|---|---|
 | 0 | Preparación del entorno | ✅ Completado | 2026-04-06 14:30 | 2026-04-06 15:45 | GitHub Copilot |
 | 1 | Fundación del proyecto | ✅ Completado | 2026-04-06 15:45 | 2026-04-06 16:30 | GitHub Copilot |
-| 2 | Capa de datos JSON | ⬜ Pendiente | — | — | — |
+| 2 | Capa de datos JSON | 🔄 En progreso | 2026-04-10 14:30 | — | GitHub Copilot |
 | 3 | Home "Hola Mundo" | ⬜ Pendiente | — | — | — |
 | 4 | CI/CD y Pipeline | ⬜ Pendiente | — | — | — |
 | 5 | Deploy y Validación | ⬜ Pendiente | — | — | — |
@@ -142,10 +142,10 @@ Archivo resumen  : RESUMEN_FASE_1.md ✅
 
 ### Registro de inicio
 ```
-Fecha de inicio : [COMPLETAR AL INICIAR]
+Fecha de inicio : 2026-04-10 — 14:30 (UTC-5)
 Prompt ejecutado: PROMPT-F2
-Ejecutado por   : [nombre o alias del ejecutor]
-Observaciones   : —
+Ejecutado por   : GitHub Copilot — Ingeniero Fullstack Senior
+Observaciones   : Fase 2 — Implementación de capa de datos JSON con Zod, esquemas, dataReader/dataWriter, y API Routes tipadas
 ```
 
 ### Tareas ejecutadas
