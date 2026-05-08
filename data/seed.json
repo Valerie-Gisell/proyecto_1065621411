@@ -1,0 +1,32 @@
+{
+  "system": {
+    "mode": "seed",
+    "welcome": "GoCash Seed Mode: inicio rápido de fase 1"
+  },
+  "users": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "name": "Super Admin",
+      "email": "admin@gocash.local",
+      "password": "Admin123!",
+      "role": "superadmin",
+      "currency": "COP",
+      "is_active": true,
+      "must_change_password": false,
+      "created_at": "2026-05-08T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    { "id": "00000000-0000-0000-0000-000000000100", "user_id": null, "name": "Comida", "emoji": "🍔", "color": "#f97316", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000101", "user_id": null, "name": "Transporte", "emoji": "🚌", "color": "#0ea5e9", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000102", "user_id": null, "name": "Salud", "emoji": "💊", "color": "#22c55e", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000103", "user_id": null, "name": "Hogar", "emoji": "🏠", "color": "#8b5cf6", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000104", "user_id": null, "name": "Entretenimiento", "emoji": "🎬", "color": "#fb7185", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000105", "user_id": null, "name": "Ahorro", "emoji": "💰", "color": "#fde047", "type": "ingreso", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000106", "user_id": null, "name": "Facturas", "emoji": "🧾", "color": "#14b8a6", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000107", "user_id": null, "name": "Educación", "emoji": "🎓", "color": "#f43f5e", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000108", "user_id": null, "name": "Regalos", "emoji": "🎁", "color": "#f97316", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-000000000109", "user_id": null, "name": "Ingresos", "emoji": "💼", "color": "#22c55e", "type": "ingreso", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" },
+    { "id": "00000000-0000-0000-0000-00000000010a", "user_id": null, "name": "Viajes", "emoji": "✈️", "color": "#0ea5e9", "type": "gasto", "is_active": true, "created_at": "2026-05-08T00:00:00.000Z" }
+  ]
+}
